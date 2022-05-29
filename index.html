@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Profile widget" />
+    <title>Widget card</title>
+
+    <link href="./styles/main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <div class="app__card">
+        <div class="app__card-nav"></div>
+        <div class="app__card-header">
+          <div class="banner-photo"></div>
+          <div class="user-info">
+            <div class="profile-photo"></div>
+            <div class="profile-info"></div>
+          </div>
+        </div>
+        <div class="app__card-stats">
+          <div class="stats"></div>
+          <div class="btn btn-follow"></div>
+        </div>
+        <div class="app__card-footer"></div>
+      </div>
+    </main>
+    <script type="text/javascript">
+      WebFontConfig = {
+        google: {
+          families: ["Roboto+Slab:400,700"],
+        },
+      };
+      (function () {
+        var wf = document.createElement("script");
+        wf.src = "https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js";
+        wf.type = "text/javascript";
+        wf.async = "true";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
+  </body>
+</html>

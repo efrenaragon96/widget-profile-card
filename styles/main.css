@@ -1,0 +1,16 @@
+:root {
+  --color-1: #5451fa; /* neon blue */
+  --color-2: #dcdafe; /* pale lavander */
+  --color-3: #4a4a4a; /* armadillo */
+  --color-4: #979797; /* aluminum */
+  --fs: 16px;
+  --big-fs: 24px;
+  --font-norma: 400;
+  --font-blod: 600;
+}
+
+body {
+  font-size: var(--fs);
+  font-family: Roboto, "Open Sans", sans-serif;
+  background-color: var(--color-1);
+}
