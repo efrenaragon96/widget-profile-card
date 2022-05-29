@@ -144,11 +144,15 @@ body main {
   width: 90%;
   height: 100%;
   border-radius: 15px;
-  background-color: var(--color-2);
-  color: var(--color-1);
+  background-color: var(--color-1);
+  color: var(--color-2);
   font-size: 16px;
   font-weight: var(--font-blod);
   border: 0px;
+}
+.app__card .app__card-stats .btn button:active {
+  background-color: var(--color-2);
+  color: var(--color-1);
 }
 .app__card .app__card-footer {
   font-size: var(--fs);
